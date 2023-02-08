@@ -5,6 +5,7 @@ const int PIN_LED = 13;
 void setup() {
     pinMode(PIN_LED, OUTPUT);
     Serial.begin(9600);
+    Serial.println("Start ...");
 }
 
 void loop() {
